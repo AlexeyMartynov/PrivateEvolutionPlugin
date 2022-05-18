@@ -1,0 +1,7 @@
+name: PrivateEvolution
+version: '${version}'
+main: io.github.alexeymartynov.private_evolution.main.PrivateEvolution
+api-version: 1.16
+authors: [ bybyzyanka ]
+description: PrivateEvolutionPlugin by bybyzyanka
+website: https://vk.com/kai9595
