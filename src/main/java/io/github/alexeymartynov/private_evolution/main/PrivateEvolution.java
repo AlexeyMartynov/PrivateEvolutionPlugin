@@ -2,6 +2,7 @@ package io.github.alexeymartynov.private_evolution.main;
 
 import io.github.alexeymartynov.private_evolution.privates.PrivateHandler;
 import io.github.alexeymartynov.private_evolution.privates.PrivateManager;
+import io.github.alexeymartynov.private_evolution.util.Icon;
 import org.bukkit.Bukkit;
 import org.bukkit.configuration.file.FileConfiguration;
 import org.bukkit.configuration.file.YamlConfiguration;

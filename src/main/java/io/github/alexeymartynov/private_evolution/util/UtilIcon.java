@@ -4,7 +4,7 @@ import org.bukkit.Bukkit;
 import org.bukkit.Material;
 import org.bukkit.inventory.ItemStack;
 
-public class UtilIcons {
+public class UtilIcon {
 
     public static ItemStack createHead(String name, String id, String texture)
     {
