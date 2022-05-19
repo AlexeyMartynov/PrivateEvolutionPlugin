@@ -19,11 +19,11 @@ public enum Icon {
 
     private Icon(String id, String texture) { this.item = UtilIcon.createHead("", id, texture); }
 
-    public ItemStack getItem() { return item; }
+    public ItemStack get() { return item; }
 
     public void setName(String name)
     {
-        ItemStack item = getItem();
+        ItemStack item = get();
         ItemMeta meta = item.getItemMeta();
         meta.setDisplayName(name);
         item.setItemMeta(meta);

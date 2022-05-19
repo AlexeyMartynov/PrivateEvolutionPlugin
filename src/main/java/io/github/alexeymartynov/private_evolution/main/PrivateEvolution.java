@@ -62,6 +62,8 @@ public final class PrivateEvolution extends JavaPlugin {
         catch (Exception exception) {}
     }
 
+    public PrivateManager getPrivateManager() { return privateManager; }
+
     public void saveLocalizationConfig() { saveConfig(localizationConfig, localizationFile); }
 
     public FileConfiguration getLocalizationConfig() { return localizationConfig; }

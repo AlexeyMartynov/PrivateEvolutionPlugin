@@ -18,10 +18,10 @@ public enum Name {
     {
         FileConfiguration config = PrivateEvolution.getInstance().getLocalizationConfig();
         for(Name name : Name.values())
-            name.setName(config.getString("names." + name.toString().toLowerCase()));
+            name.set(config.getString("names." + name.toString().toLowerCase()));
     }
 
-    public void setName(String name) { this.name = name; }
+    public void set(String name) { this.name = name; }
 
-    public String getName() { return name; }
+    public String get() { return name; }
 }
