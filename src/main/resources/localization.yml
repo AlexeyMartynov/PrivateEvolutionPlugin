@@ -1,8 +1,8 @@
 messages:
 names:
-  title_gui_private_menu: 'Меню Региона'
-  title_gui_private_pick: 'Выберите Тип Региона'
-  icon_private_fraction: 'Фракционный Регион'
-  icon_private_evolution: 'Развитие Региона'
-  icon_information: 'Информация'
-  icon_upgrade: 'Улучшение'
+  TITLE_GUI_PRIVATE_MENU: 'Меню Региона'
+  TITLE_GUI_PRIVATE_PICK: 'Выберите Тип Региона'
+  ICON_PRIVATE_FRACTION: 'Фракционный Регион'
+  ICON_PRIVATE_EVOLUTION: 'Развитие Региона'
+  ICON_INFORMATION: 'Информация'
+  ICON_UPGRADE: 'Улучшение'

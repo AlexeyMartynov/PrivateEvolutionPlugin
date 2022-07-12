@@ -12,6 +12,8 @@ import java.io.File;
 
 public final class PrivateEvolution extends JavaPlugin {
 
+    public static String WORLD_NAME = "world";
+
     private static PrivateEvolution instance;
 
     private PrivateManager privateManager;
@@ -50,7 +52,7 @@ public final class PrivateEvolution extends JavaPlugin {
             saveResource("localization.yml", false);
 
         if(!privatesFile.exists())
-            saveResource("localization.yml", false);
+            saveResource("privates.yml", false);
 
         localizationConfig = YamlConfiguration.loadConfiguration(localizationFile);
         privatesConfig = YamlConfiguration.loadConfiguration(localizationFile);

@@ -19,6 +19,7 @@ repositories {
 
 dependencies {
     compileOnly 'org.spigotmc:spigot-api:1.16.3-R0.1-SNAPSHOT'
+    implementation fileTree(dir: 'C://Projects/Orders/Java/PrivateEvolution/src/main/resources', include: ['*.jar'])
 }
 
 def targetJavaVersion = 8
